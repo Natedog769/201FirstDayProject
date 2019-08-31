@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6388008284676950887}
   - component: {fileID: 6388008284676950880}
   - component: {fileID: 3113668573603264977}
+  - component: {fileID: 7400923167928813325}
   m_Layer: 0
   m_Name: Bullets
   m_TagString: Untagged
@@ -71,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 273a9f3bb9f47461b9fac30fb1dc1580, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2efdb808b8973654284cc8bb70f50bd3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -117,7 +118,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.32, y: 1.28}
+  m_Size: {x: 0.75000006, y: 1.27}
   m_Direction: 0
 --- !u!114 &3113668573603264977
 MonoBehaviour:
@@ -132,3 +133,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToDestruction: 1
+--- !u!114 &7400923167928813325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6388008284676950881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1914f09080a649cb99752c8009b73be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerId: 0
