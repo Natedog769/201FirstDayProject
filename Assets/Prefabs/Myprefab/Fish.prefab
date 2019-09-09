@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 8857130999460700775}
   - component: {fileID: 929614861991590953}
   - component: {fileID: 7682283828609305004}
+  - component: {fileID: 7759086844639324075}
+  - component: {fileID: 5533494279927037557}
   m_Layer: 0
   m_Name: Fish
   m_TagString: Untagged
@@ -171,3 +173,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToAffect: {fileID: 8857130999460700826}
   justMakeInvisible: 0
+--- !u!114 &7759086844639324075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8857130999460700826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointsWorth: 1
+--- !u!70 &5533494279927037557
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8857130999460700826}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 1.06, y: 2.66}
+  m_Direction: 0
